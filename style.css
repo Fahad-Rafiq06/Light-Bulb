@@ -1,0 +1,31 @@
+#main-div img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+
+}
+
+
+button#on {
+    background: green;
+    margin-top: 5%;
+    margin-left: 45%;
+    width: 80px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+button#off {
+    align-items: center;
+    background: red;
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}

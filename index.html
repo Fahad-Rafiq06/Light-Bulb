@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Bulb Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1>Light Bulb Poject</h1></center>
+    <div id="main-div">
+        <img src="pic_bulboff.gif" alt="bulbOFF" id="bulb">
+        <button id="on" onclick="bulb('on')">ON</button>
+        <button id="off" onClick="bulb('off')">OFF</button>
+    </div>
+</body>
+<script>
+    function bulb(val){
+        var image = document.getElementById("bulb")
+        if(val == "on"){
+            image.src = "pic_bulbon.gif";
+            on.style.visibility = "hidden"
+            off.style.visibility = "visible"
+        }
+        else if(val == "off"){
+            image.src = "pic_bulboff.gif";
+            on.style.visibility = "visible"
+            off.style.visibility = "hidden"
+
+        }
+    }
+</script>
+</html>
